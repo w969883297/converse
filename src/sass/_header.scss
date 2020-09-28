@@ -1,0 +1,123 @@
+@charset "utf-8";
+* {
+    margin: 0;
+    padding: 0;
+}
+
+#header {
+    .top {
+        height: 80px;
+        background: #000;
+        line-height: 80px;
+        .left {
+            width: 163px;
+            height: 22px;
+            background: url(../images/header-footer-new3.png) 0 0 no-repeat transparent;
+            float: left;
+            margin: 30px 0 0 68px;
+        }
+        .right {
+            text-align: center;
+            font-size: 12px;
+            padding-left: 900px;
+            li {
+                height: 80px;
+                float: left;
+                cursor: pointer;
+                // line-height: 80px;
+                p {
+                    color: #fff;
+                    font-size: 14px;
+                    float: left;
+                }
+                a {
+                    text-align: center;
+                    font-size: 12px;
+                    color: #fff;
+                }
+            }
+            .header_right_person {
+                width: 30px;
+                height: 31px;
+                margin: 22px 20px 0 20px;
+                background: url('https://image.converse.com.cn/images/commons/sprites_header_footer.png')-96px -85px;
+            }
+            .header_right_shopping {
+                display: inline-block;
+                background-color: #b63330;
+                width: 31px;
+                height: 31px;
+                line-height: 30PX;
+                margin: 22px 20px 0 20px;
+                border-radius: 50%;
+                color: #fff;
+            }
+            .header_right_chat {
+                display: inline-block;
+                width: 30px;
+                height: 31px;
+                left: auto;
+                margin-left: 0;
+                margin-right: -15px;
+                margin: 22px 20px 0 20px;
+                right: 0;
+                background: url('https://image.converse.com.cn/images/commons/sprites_header_footer.png')-95px -54px;
+            }
+            .header_right_search {
+                display: inline-block;
+                width: 30px;
+                height: 31px;
+                margin-top: 20px;
+                margin: 22px 20px 0 20px;
+                background: url('https://image.converse.com.cn/images/commons/sprites_header_footer.png')-137px -161px;
+            }
+            .header_right_help {
+                display: inline-block;
+                width: 30px;
+                height: 31px;
+                margin-top: 20px;
+                margin: 22px 20px 0 20px;
+                background: url('https://image.converse.com.cn/images/commons/sprites_header_footer.png')-169px -161px;
+            }
+        }
+    }
+}
+
+.bom_tab {
+    height: 50px;
+    background: #454545;
+    .bom_tab_title {
+        margin-left: 310px;
+    }
+    .bom_tab_title a {
+        // width: 50px;
+        font-size: 18px;
+        height: 50px;
+        color: #fff;
+        // text-align: center;
+        line-height: 50px;
+        display: block;
+        float: left;
+        margin-left: 80px;
+        i {
+            // border-color: white transparent transparent;
+            // border-right: 6px solid transparent;
+            // border-style: solid;
+            // border-width: 6px;
+            // position: absolute;
+            // width: 0;
+            // margin-left: -6px;
+            // height: 0;
+            // left: 50%;
+            // bottom: 6px;
+            content: '';
+            margin: auto;
+            display: block;
+            margin-top: -10px;
+            width: 1px;
+            /* height: 12px; */
+            border: 6px solid;
+            border-color: #ccc transparent transparent transparent;
+        }
+    }
+}

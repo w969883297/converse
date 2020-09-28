@@ -1,0 +1,513 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+#header .top {
+  height: 80px;
+  background: #000;
+  line-height: 80px;
+}
+#header .top .left {
+  width: 163px;
+  height: 22px;
+  background: url(../images/header-footer-new3.png) 0 0 no-repeat transparent;
+  float: left;
+  margin: 30px 0 0 68px;
+}
+#header .top .right {
+  text-align: center;
+  font-size: 12px;
+  padding-left: 900px;
+}
+#header .top .right li {
+  height: 80px;
+  float: left;
+  cursor: pointer;
+}
+#header .top .right li p {
+  color: #fff;
+  font-size: 14px;
+  float: left;
+}
+#header .top .right li a {
+  text-align: center;
+  font-size: 12px;
+  color: #fff;
+}
+#header .top .right .header_right_person {
+  width: 30px;
+  height: 31px;
+  margin: 22px 20px 0 20px;
+  background: url("https://image.converse.com.cn/images/commons/sprites_header_footer.png")-96px -85px;
+}
+#header .top .right .header_right_shopping {
+  display: inline-block;
+  background-color: #b63330;
+  width: 31px;
+  height: 31px;
+  line-height: 30PX;
+  margin: 22px 20px 0 20px;
+  border-radius: 50%;
+  color: #fff;
+}
+#header .top .right .header_right_chat {
+  display: inline-block;
+  width: 30px;
+  height: 31px;
+  left: auto;
+  margin-left: 0;
+  margin-right: -15px;
+  margin: 22px 20px 0 20px;
+  right: 0;
+  background: url("https://image.converse.com.cn/images/commons/sprites_header_footer.png")-95px -54px;
+}
+#header .top .right .header_right_search {
+  display: inline-block;
+  width: 30px;
+  height: 31px;
+  margin-top: 20px;
+  margin: 22px 20px 0 20px;
+  background: url("https://image.converse.com.cn/images/commons/sprites_header_footer.png")-137px -161px;
+}
+#header .top .right .header_right_help {
+  display: inline-block;
+  width: 30px;
+  height: 31px;
+  margin-top: 20px;
+  margin: 22px 20px 0 20px;
+  background: url("https://image.converse.com.cn/images/commons/sprites_header_footer.png")-169px -161px;
+}
+
+.bom_tab {
+  height: 50px;
+  background: #454545;
+}
+.bom_tab .bom_tab_title {
+  margin-left: 310px;
+}
+.bom_tab .bom_tab_title a {
+  font-size: 18px;
+  height: 50px;
+  color: #fff;
+  line-height: 50px;
+  display: block;
+  float: left;
+  margin-left: 80px;
+}
+.bom_tab .bom_tab_title a i {
+  content: '';
+  margin: auto;
+  display: block;
+  margin-top: -10px;
+  width: 1px;
+  /* height: 12px; */
+  border: 6px solid;
+  border-color: #ccc transparent transparent transparent;
+}
+
+.notice {
+  width: 100%;
+  height: 44px;
+  line-height: 44px;
+  text-align: center;
+  font-size: 12px;
+}
+
+#banner {
+  width: 100%;
+}
+#banner .slideshow {
+  width: 100%;
+}
+#banner li {
+  width: 100%;
+}
+#banner li img {
+  width: 100%;
+  height: auto;
+}
+
+.banner_nav {
+  width: 100%;
+  height: 36px;
+}
+.banner_nav ul {
+  width: 100%;
+  height: 36px;
+  margin: 0 auto;
+  text-align: center;
+  z-index: 10;
+  background: 0;
+  margin-top: 8px;
+  margin-bottom: 8px;
+}
+.banner_nav ul li {
+  border-top: 1px solid #fff;
+  color: #999;
+  cursor: pointer;
+  display: inline-block;
+  display: inline;
+  zoom: 1;
+  font-size: 15px;
+  padding: 5px 0;
+  margin-left: 8px;
+}
+
+#hotsale {
+  width: 100%;
+}
+#hotsale .hotsale_tit {
+  width: 970px;
+  font-size: 30px;
+  text-align: center;
+  vertical-align: middle;
+  margin: 20px auto;
+  position: relative;
+}
+#hotsale .hotsale_tit:before {
+  background-color: #b7b7b7;
+  content: "";
+  height: 1px;
+  left: 1.5%;
+  position: absolute;
+  top: 15px;
+  width: 97%;
+}
+#hotsale .hotsale_tit h1 {
+  background: none repeat scroll 0 0 #fff;
+  display: inline-block;
+  *display: inline;
+  zoom: 1;
+  height: 30px;
+  line-height: 30px;
+  margin: 0 auto;
+  padding: 0 4%;
+  position: relative;
+  font-size: 30px;
+}
+
+.hotsale_tab {
+  width: 1000px;
+  height: 250px;
+  margin: 0 auto;
+  overflow: hidden;
+}
+.hotsale_tab li {
+  width: 240px;
+  float: left;
+}
+.hotsale_tab li h2 {
+  width: 240px;
+  height: 30px;
+  text-align: center;
+  color: #333;
+  font-size: 24px;
+}
+.hotsale_tab li img {
+  width: 200px;
+  height: 200px;
+  margin-left: 30px;
+}
+
+.lines1 {
+  width: 1000px;
+  height: 0px;
+  border-bottom: 1px solid #B7B7B7;
+  margin: 0 auto;
+}
+
+.lines2 {
+  width: 1000px;
+  height: 330px;
+  border-bottom: 1px solid #B7B7B7;
+  margin: 0 auto;
+}
+
+.hotsale_tab_content, .recommend_list {
+  width: 1000px;
+  margin: 0 auto;
+  overflow: hidden;
+}
+.hotsale_tab_content dl, .recommend_list dl {
+  width: 250px;
+  height: 300px;
+  float: left;
+}
+.hotsale_tab_content dl img, .recommend_list dl img {
+  width: 165px;
+  height: 165px;
+  margin: 0 0 16px 30px;
+}
+.hotsale_tab_content dl dd, .recommend_list dl dd {
+  width: 100%;
+  line-height: 18px;
+}
+.hotsale_tab_content dl .hotsale_p_n, .recommend_list dl .hotsale_p_n {
+  width: 250px;
+  height: 50px;
+  font-size: 14px;
+  color: #333;
+  outline: medium none;
+  overflow: hidden;
+  text-decoration: none;
+  font-weight: bold;
+  margin: 0 0 5px 30px;
+}
+.hotsale_tab_content dl .hotsale_p_price, .recommend_list dl .hotsale_p_price {
+  font-size: 14px;
+  margin: 0 0px 5px 75px;
+  color: #333;
+}
+.hotsale_tab_content dl .hotsale_p_price_reduced, .recommend_list dl .hotsale_p_price_reduced {
+  font-size: 14px;
+  color: #333;
+  margin: 0 0px 5px 75px;
+}
+
+.hotsale_buttom {
+  width: auto;
+  height: auto;
+  margin: 0 auto;
+  text-align: center;
+}
+.hotsale_buttom a {
+  line-height: 48px;
+  font-size: 16px;
+  height: 48px;
+  padding: 0 25px;
+  border: 1px solid #000;
+  text-align: center;
+  display: inline-block;
+  *display: inline;
+  zoom: 1;
+  width: 30%;
+  background-color: #000;
+  color: #FFF;
+  box-sizing: border-box;
+}
+
+#recommend {
+  width: 100%;
+}
+#recommend .recommend_tit {
+  width: 970px;
+  height: 30px;
+}
+#recommend .recommend_tit {
+  width: 970px;
+  height: 30px;
+  font-size: 30px;
+  text-align: center;
+  vertical-align: middle;
+  margin: 20px auto;
+  position: relative;
+}
+#recommend .recommend_tit:before {
+  background-color: #b7b7b7;
+  content: "";
+  height: 1px;
+  left: 1.5%;
+  position: absolute;
+  top: 15px;
+  width: 97%;
+}
+#recommend .recommend_tit h1 {
+  background: none repeat scroll 0 0 #fff;
+  display: inline-block;
+  *display: inline;
+  zoom: 1;
+  height: 30px;
+  line-height: 30px;
+  margin: 0 auto;
+  padding: 0 4%;
+  position: relative;
+  font-size: 30px;
+}
+
+.lines3 {
+  width: 1000px;
+  height: 320px;
+  border-bottom: 1px solid #B7B7B7;
+  margin: 0 auto;
+}
+
+.lines4 {
+  width: 1000px;
+  height: 320px;
+  border-bottom: 1px solid #B7B7B7;
+  margin: 0 auto;
+}
+
+.lines5 {
+  width: 1000px;
+  height: 320px;
+  border-bottom: 1px solid #B7B7B7;
+  margin: 0 auto;
+}
+
+#specialfeature {
+  width: 1000px;
+  height: 1000px;
+  margin: 0 auto;
+}
+#specialfeature .specialfeature_tit {
+  width: 1000px;
+  height: 40px;
+  background: #464646;
+  color: #FFF;
+  font-size: 18px;
+}
+#specialfeature .specialfeature_tit img {
+  margin: 10px 11px 0 20px;
+}
+#specialfeature .specialfeature_tit span {
+  line-height: 40px;
+  margin: 10px 0 0;
+  font: inherit;
+  vertical-align: baseline;
+}
+#specialfeature .specialfeature_main {
+  margin-top: 20px;
+  margin-bottom: 120px;
+}
+
+.specialfeature_main_left {
+  float: left;
+  margin-right: 20px;
+}
+.specialfeature_main_left h1 {
+  font-size: 24px;
+  margin: 17px 0 17px 0;
+}
+.specialfeature_main_left p {
+  line-height: 48px;
+  font-size: 16px;
+  height: 48px;
+  padding: 0 3px 0 7px;
+  border: 1px solid #000;
+  text-align: center;
+  display: inline-block;
+  *display: inline;
+  zoom: 1;
+  width: 38%;
+  background-color: #000;
+  color: #FFF;
+}
+
+.specialfeature_main_rigth {
+  float: left;
+}
+.specialfeature_main_rigth h1 {
+  font-size: 24px;
+  margin: 17px 0 17px 0;
+}
+.specialfeature_main_rigth p {
+  line-height: 48px;
+  font-size: 16px;
+  height: 48px;
+  padding: 0 3px 0 7px;
+  border: 1px solid #000;
+  text-align: center;
+  display: inline-block;
+  *display: inline;
+  zoom: 1;
+  width: 38%;
+  background-color: #000;
+  color: #FFF;
+}
+
+.specialfeature_main_second {
+  margin-top: 20px;
+}
+.specialfeature_main_second h3 {
+  font-size: 24px;
+  margin: 17px 0 17px 0;
+}
+.specialfeature_main_second p {
+  line-height: 42px;
+  font-size: 18px;
+  height: 42px;
+  padding: 0;
+  border: 0 solid #000;
+  text-align: left;
+  display: inline-block;
+  *display: inline;
+  zoom: 1;
+  width: 33%;
+  background-color: #FFF;
+  color: #333;
+  text-decoration: underline;
+}
+
+.specialfeature_main_sLeft {
+  float: left;
+}
+
+.specialfeature_main_sCenter {
+  float: left;
+  margin-left: 20px;
+}
+
+.specialfeature_main_sRight {
+  float: left;
+  margin-left: 20px;
+}
+
+#links {
+  width: 100%;
+  height: 358px;
+  background: #464646;
+}
+#links .attention {
+  margin-top: 50px;
+  width: 100%;
+  text-align: center;
+  font-size: 16px;
+  line-height: 80px;
+  color: white;
+  background-color: #464646;
+}
+#links .attention h2 {
+  display: block;
+  font-size: 2em;
+  text-align: center;
+  font-weight: bold;
+}
+#links .attention p {
+  background: #464646;
+  width: 100%;
+  height: 24px;
+  color: #FFF;
+  text-align: center;
+}
+#links .content {
+  width: 100%;
+  height: 610px;
+  background: orange;
+}
+#links .links_icon {
+  padding-top: 80px;
+}
+#links .links_icon .left {
+  display: inline-block;
+  width: 75px;
+  height: 75px;
+  margin-left: 690px;
+  background: url(https://image.converse.com.cn/images/homepage/share.png) 75px 0px;
+}
+#links .links_icon .right {
+  display: inline-block;
+  width: 75px;
+  height: 75px;
+  margin: 0px 10px;
+  background: url(https://image.converse.com.cn/images/homepage/share.png) 75px -75px;
+}
+
+#footer {
+  width: 100%;
+  height: 180px;
+  background: teal;
+}
+
+/*# sourceMappingURL=all.css.map */

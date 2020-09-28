@@ -1,0 +1,112 @@
+@charset "utf-8";
+$f:float;
+$l:left;
+#specialfeature {
+    width: 1000px;
+    height: 1000px;
+    margin: 0 auto;
+    .specialfeature_tit {
+        width: 1000px;
+        height: 40px;
+        background: #464646;
+        color: #FFF;
+        font-size: 18px;
+        // padding-bottom: 20px;
+        img {
+            margin: 10px 11px 0 20px;
+        }
+        span {
+            line-height: 40px;
+            margin: 10px 0 0;
+            font: inherit;
+            vertical-align: baseline;
+        }
+    }
+    .specialfeature_main {
+        margin-top: 20px;
+        margin-bottom: 120px;
+    }
+}
+
+.specialfeature_main_left {
+    #{$f}: $l;
+    margin-right: 20px;
+    h1 {
+        font-size: 24px;
+        margin: 17px 0 17px 0;
+    }
+    p {
+        line-height: 48px;
+        font-size: 16px;
+        height: 48px;
+        padding: 0 3px 0 7px;
+        border: 1px solid #000;
+        text-align: center;
+        display: inline-block;
+        *display: inline;
+        zoom: 1;
+        width: 38%;
+        background-color: #000;
+        color: #FFF;
+    }
+}
+
+.specialfeature_main_rigth {
+    // @extend .specialfeature_main_left;
+    #{$f}: $l;
+    h1 {
+        font-size: 24px;
+        margin: 17px 0 17px 0;
+    }
+    p {
+        line-height: 48px;
+        font-size: 16px;
+        height: 48px;
+        padding: 0 3px 0 7px;
+        border: 1px solid #000;
+        text-align: center;
+        display: inline-block;
+        *display: inline;
+        zoom: 1;
+        width: 38%;
+        background-color: #000;
+        color: #FFF;
+    }
+}
+
+.specialfeature_main_second {
+    margin-top: 20px;
+    h3 {
+        font-size: 24px;
+        margin: 17px 0 17px 0;
+    }
+    p {
+        line-height: 42px;
+        font-size: 18px;
+        height: 42px;
+        padding: 0;
+        border: 0 solid #000;
+        text-align: left;
+        display: inline-block;
+        *display: inline;
+        zoom: 1;
+        width: 33%;
+        background-color: #FFF;
+        color: #333;
+        text-decoration: underline;
+    }
+}
+
+.specialfeature_main_sLeft {
+    #{$f}: $l;
+}
+
+.specialfeature_main_sCenter {
+    #{$f}: $l;
+    margin-left: 20px;
+}
+
+.specialfeature_main_sRight {
+    #{$f}: $l;
+    margin-left: 20px;
+}

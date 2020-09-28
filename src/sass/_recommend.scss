@@ -1,0 +1,63 @@
+@charset "utf-8";
+#recommend {
+    width: 100%;
+    .recommend_tit {
+        width: 970px;
+        height: 30px;
+    }
+    .recommend_tit {
+        width: 970px;
+        height: 30px;
+        font-size: 30px;
+        text-align: center;
+        vertical-align: middle;
+        margin: 20px auto;
+        position: relative;
+        &:before {
+            background-color: #b7b7b7;
+            content: "";
+            height: 1px;
+            left: 1.5%;
+            position: absolute;
+            top: 15px;
+            width: 97%;
+        }
+        h1 {
+            background: none repeat scroll 0 0 #fff;
+            display: inline-block;
+            *display: inline;
+            zoom: 1;
+            height: 30px;
+            line-height: 30px;
+            margin: 0 auto;
+            padding: 0 4%;
+            position: relative;
+            font-size: 30px;
+        }
+    }
+}
+
+.recommend_list {
+    @extend .hotsale_tab_content;
+}
+
+.lines3 {
+    width: 1000px;
+    height: 320px;
+    border-bottom: 1px solid #B7B7B7;
+    margin: 0 auto;
+}
+
+.lines4 {
+    width: 1000px;
+    height: 320px;
+    border-bottom: 1px solid #B7B7B7;
+    margin: 0 auto;
+}
+
+.lines5 {
+    width: 1000px;
+    height: 320px;
+    border-bottom: 1px solid #B7B7B7;
+    margin: 0 auto;
+}
